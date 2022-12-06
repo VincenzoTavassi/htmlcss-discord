@@ -148,6 +148,13 @@ h3 {
 	line-height: 50px;
 }
 
+h4 {
+	font-size: 2rem;
+	font-weight: bolder;
+	color: #8EA1E1;
+	margin: 20px 0;
+
+}
 
 main>section {
 	padding: 50px 0;
@@ -260,8 +267,17 @@ main>section>.container {
 	width: calc(100% / 3);
 
 	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
+	/* background-color: #f08080;
+	border: 2px dashed black; */
+}
+
+.footer-main-col>img {
+	max-height: 20px;
+}
+
+.lang {
+	font-size: 1rem;
+	color: white;
 }
 
 .footer-side-col {
