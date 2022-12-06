@@ -120,7 +120,12 @@ header {
 	color: white;
 }
 
-.jumbotron .content .action {
+.action .purple {
+	background-color: #8EA1E1;
+	color: white;
+}
+
+.action {
 
 	display: flex;
 	justify-content: center;
@@ -132,6 +137,17 @@ h2 {
 	font-size: 3.5rem;
 	font-weight: bolder;
 }
+
+h3 {
+
+	font-size: 2rem;
+	font-weight: bolder;
+	margin-bottom: 40px;
+	background-image: url(../img/stars.svg);
+	background-size: contain;
+	line-height: 50px;
+}
+
 
 main>section {
 	padding: 50px 0;
@@ -149,7 +165,7 @@ main>section>.container {
 }
 
 .bg-gray {
-	background-color: lightgray;
+	background-color: #F6F6F6;
 }
 
 .bg-waves {
@@ -157,7 +173,7 @@ main>section>.container {
 }
 
 .svgray {
-	fill: lightgray;
+	fill: #F6F6F6;
 }
 
 .svgwhite {
@@ -188,7 +204,8 @@ main>section>.container {
 	border: 2px dashed black; */
 }
 
-.side-col p {
+.side-col p,
+.hilighted-content p {
 	font-size: 1.5rem;
 	margin-top: 40px;
 	line-height: 30px;
@@ -196,12 +213,28 @@ main>section>.container {
 
 .hilighted-content {
 	flex-grow: 1;
-
-	/* debug */
-	min-height: 800px;
-	background-color: forestgreen;
-	border: 2px dashed black;
+	text-align: center;
+	padding-top: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
+
+.hilighted-content>img {
+	width: 100%;
+
+}
+
+/* .stars-bg {
+	background-image: url(../img/stars.svg);
+	background-size: cover;
+	width: 50%;
+} */
+
+/* debug */
+/* min-height: 800px;
+	background-color: forestgreen;
+	border: 2px dashed black; */
 
 /* FOOTER */
 
