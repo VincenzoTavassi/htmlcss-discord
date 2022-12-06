@@ -128,6 +128,11 @@ header {
 
 /* MAIN & SECTIONS */
 
+h2 {
+	font-size: 3.5rem;
+	font-weight: bolder;
+}
+
 main>section {
 	padding: 50px 0;
 }
@@ -147,20 +152,50 @@ main>section>.container {
 	background-color: lightgray;
 }
 
+.bg-waves {
+	margin: -5px 0;
+}
+
+.svgray {
+	fill: lightgray;
+}
+
+.svgflip {
+	transform: rotate(180deg);
+}
+
+.svgwhite {
+	fill: white;
+}
+
 .main-col {
 	flex-grow: 2;
 
 	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+	/* background-color: cornflowerblue;
+	border: 2px dashed black; */
 }
+
+.main-col>img {
+	height: 100%;
+}
+
 
 .side-col {
 	flex-grow: 1;
+	max-width: calc(100% / 3);
+	margin-top: 50px;
+	padding: 0 40px 40px 40px;
 
 	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
+	/* background-color: pink;
+	border: 2px dashed black; */
+}
+
+.side-col p {
+	font-size: 1.5rem;
+	margin-top: 40px;
+	line-height: 30px;
 }
 
 .hilighted-content {
