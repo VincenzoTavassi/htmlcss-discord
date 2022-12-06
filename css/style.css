@@ -156,6 +156,14 @@ h4 {
 
 }
 
+h5 {
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: #8EA1E1;
+	margin: 20px 0;
+
+}
+
 main>section {
 	padding: 50px 0;
 }
@@ -285,16 +293,23 @@ main>section>.container {
 	width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
+	/* background-color: #20b2aa;
+	border: 2px dashed black; */
 }
 
 .footer-col {
 	width: 25%;
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
+	/* background-color: #20b2aa;
+	border: 2px dashed white; */
+}
+
+.footer-col ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	line-height: 40px;
 }
 
 .footer-bottom {
