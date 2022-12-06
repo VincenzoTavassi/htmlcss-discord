@@ -1,3 +1,7 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
 
 header {
@@ -18,6 +22,7 @@ header {
 	display: flex;
 	flex-grow: 1;
 	line-height: 30px;
+	align-items: center;
 }
 
 .header-nav>* {
@@ -34,8 +39,26 @@ header {
 	text-align: center;
 }
 
+.header-links ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 100px;
+}
+
+.header-links ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+}
+
 .header-login {
 	text-align: right;
+	max-width: fit-content;
+	border-radius: 20px;
+	font-size: 1rem;
+	color: black;
+	background-color: white;
 }
 
 /* JUMBOTRON */
@@ -55,6 +78,7 @@ header {
 .jumbotron .content {
 	min-height: 500px;
 	width: 50%;
+	margin-top: 50px;
 
 	/* debug */
 	/* background-color: #ee82ee;
@@ -62,7 +86,7 @@ header {
 }
 
 .jumbotron .content>h1 {
-	font-size: 5rem;
+	font-size: 4rem;
 	font-weight: bolder;
 	color: white;
 	text-align: center;
@@ -70,36 +94,33 @@ header {
 }
 
 .jumbotron .content>p {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: white;
 	text-align: center;
 	padding: 30px;
 }
 
-.scarica,
-.apri {
+.button {
 	padding: 20px;
-	color: white;
-	background-color: gray;
 	line-height: 30px;
 	max-width: fit-content;
 	margin: 0 25px;
 	border-radius: 30px;
-	font-size: 1.5rem;
-	font-weight: 700;
+	font-size: 1.3rem;
+	font-weight: 600;
 }
 
-.buttons .white {
+.action .white {
 	background-color: white;
 	color: black;
 }
 
-.buttons .black {
+.action .black {
 	background-color: black;
 	color: white;
 }
 
-.jumbotron .content .buttons {
+.jumbotron .content .action {
 
 	display: flex;
 	justify-content: center;
