@@ -64,7 +64,7 @@ header {
 /* JUMBOTRON */
 
 .jumbotron {
-	padding: 50px 0;
+	padding: 80px 0;
 	display: flex;
 	justify-content: center;
 	background-image: url('../img/jumbo.png');
@@ -76,7 +76,7 @@ header {
 }
 
 .jumbotron .content {
-	min-height: 500px;
+	min-height: 400px;
 	width: 50%;
 	margin-top: 50px;
 
@@ -98,6 +98,7 @@ header {
 	color: white;
 	text-align: center;
 	padding: 30px;
+	line-height: 40px;
 }
 
 .button {
@@ -106,7 +107,7 @@ header {
 	max-width: fit-content;
 	margin: 0 25px;
 	border-radius: 30px;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	font-weight: 600;
 }
 
@@ -123,6 +124,7 @@ header {
 .purple {
 	background-color: #8EA1E1;
 	color: white;
+	padding: 20px 40px;
 }
 
 .action {
@@ -146,10 +148,11 @@ h3 {
 	background-image: url(../img/stars.svg);
 	background-size: contain;
 	line-height: 50px;
+	width: 50%;
 }
 
 h4 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: bolder;
 	color: #8EA1E1;
 	margin: 20px 0;
@@ -157,19 +160,24 @@ h4 {
 }
 
 h5 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: bolder;
 	color: #8EA1E1;
 	margin: 20px 0;
 
 }
 
+.waves {
+	display: block;
+}
+
 main>section {
-	padding: 50px 0;
+	/* padding: 50px 0 0 0; */
 }
 
 main>section>.container {
 	display: flex;
+	padding: 100px 0;
 
 	/* debug */
 	min-height: 500px;
@@ -181,18 +189,6 @@ main>section>.container {
 
 .bg-gray {
 	background-color: #F6F6F6;
-}
-
-.bg-waves {
-	margin: -5px 0;
-}
-
-.svgray {
-	fill: #F6F6F6;
-}
-
-.svgwhite {
-	fill: white;
 }
 
 .main-col {
@@ -233,6 +229,7 @@ main>section>.container {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin-bottom: 100px;
 }
 
 .hilighted-content>img {
@@ -264,15 +261,14 @@ main>section>.container {
 .footer-upper {
 	display: flex;
 	padding-bottom: 50px;
-	margin-bottom: 50px;
+	margin: 80px 0 50px 0;
 	border-bottom: 1px solid #8EA1E1;
 
-	/* debug */
-	min-height: 500px;
 }
 
 .footer-main-col {
 	width: calc(100% / 3);
+	padding: 0 50px;
 
 	/* debug */
 	/* background-color: #f08080;
@@ -308,7 +304,7 @@ main>section>.container {
 .footer-col ul li a {
 	text-decoration: none;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	line-height: 40px;
 }
 
