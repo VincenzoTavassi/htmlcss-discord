@@ -160,10 +160,6 @@ main>section>.container {
 	fill: lightgray;
 }
 
-.svgflip {
-	transform: rotate(180deg);
-}
-
 .svgwhite {
 	fill: white;
 }
